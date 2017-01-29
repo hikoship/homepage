@@ -1,2 +1,2 @@
-# homepage
-hgao.net
+# resume
+resume.hgao.net
