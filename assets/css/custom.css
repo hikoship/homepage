@@ -1,0 +1,12 @@
+        .features .image {
+            display: inline-block;
+            margin: 1em;
+            border-radius: 100%;
+        }
+
+            .features .image img {
+                display: block;
+                border-radius: 100%;
+                width: 12em;
+            }
+
