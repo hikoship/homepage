@@ -6,7 +6,7 @@
 -->
 <html>
     <head>
-        <title>Stellar by HTML5 UP</title>
+        <title>Hongyuan Gao's Homepage</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="assets/css/main.css" />
@@ -27,15 +27,16 @@
                         <section>
                             <ul class="icons">
                                 <li><a href="http://hgao.net/resume.pdf" target="_blank" class="icon fa-user alt"><span class="label">Resume</span></a></li>
-                                <li><a href="https://www.linkedin/hongyuan-gao" target="_blank" class="icon fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+                                <li><a href="https://www.linkedin.com/in/hongyuan-gao" target="_blank" class="icon fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
                                 <li><a href="https://github.com/hikoship" target="_blank" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
-                                <li><a href="http://blog.hgao.net" target="_blank" class="icon fa-pencil alt"><span class="label">Blog</span></a></li>
+                                <li><a href="mailto://hongyuag@usc.edu" target="_blank" class="icon fa-envelope alt"><span class="label">Email</span></a></li>
+                            </ul>
+                            <ul class="icons">
                                 <li><a href="https://twitter.com/hikoship" target="_blank" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
                                 <li><a href="https://www.facebook.com/gaohongyuan" target="_blank" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
                                 <li><a href="https://www.instagram.com/hikoship" target="_blank" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
-                                <li><a href="mailto://hongyuag@usc.edu" target="_blank" class="icon fa-envelope alt"><span class="label">Email</span></a></li>
+                                <li><a href="http://blog.hgao.net" target="_blank" class="icon fa-pencil alt"><span class="label">Blog</span></a></li>
                             </ul>
-                            
                         </section>
                     </header>
 
@@ -46,6 +47,9 @@
                             <li><a href="#education">Education</a></li>
                             <li><a href="#skills">Skills</a></li>
                             <li><a href="#work">Work Experience</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#publications">Publications</a></li>
+                            <li><a href="#interests">Interests</a></li>
                         </ul>
                     </nav>
 
@@ -175,21 +179,22 @@
                                             <h2>Work Experience</h2>
                                         </header>
                                         <p>
-                                        Embedded and Pervasive Computing Center of SJTU (March 2015 - June 2016, Shanghai, China)<br />
-                                        <i>Research Assistant</i>
-                                        <ul>
-                                            <li>Devised an efficient chunk-based cache algorithm for data deduplication in backup systems 
-                                            based on spacial locality; 
-                                            improved cache hit ratio by 5.2% and reduced I/O latency by 17.3%.</li>
-                                            <li>Combined the algorithm with container technique and saved memory consumption by 50.7%.</li>
-                                            <li>Won A-Class Bachelor’s Thesis Award (top 10%) and published a paper in IEEE ICPADS16.</li>
-                                        </ul>
+                                            <b>Embedded and Pervasive Computing Center of SJTU</b> (Shanghai, China)<br />
+                                            <i>March 2015 - June 2016</i><br />
+                                            Research Assistant
+                                            <ul>
+                                                <li>Devised an efficient chunk-based cache algorithm for data deduplication in backup systems 
+                                                based on spacial locality; 
+                                                improved cache hit ratio by 5.2% and reduced I/O latency by 17.3%.</li>
+                                                <li>Combined the algorithm with container technique and saved memory consumption by 50.7%.</li>
+                                                <li>Won A-Class Bachelor’s Thesis Award (top 10%) and published a paper in IEEE ICPADS16.</li>
+                                            </ul>
                                         </p>
                                         <hr />
-
                                         <p>
-                                            Siemens Manufacturing and Engineering Center Ltd. (January 2015 - February 2015, Shanghai, China)<br />
-                                            <i>Intern, IT Department</i>
+                                            <b>Siemens Manufacturing and Engineering Center Ltd.</b> (Shanghai, China)<br />
+                                            <i>January 2015 - February 2015</i><br />
+                                            Intern, IT Department
                                             <ul>
                                                 <li>
                                                     Developed a GUI lucky draw system for staff in Python for the year-end party.
@@ -200,8 +205,156 @@
                                     </div>
                                 </div>
                             </section>
+
+                        <!-- Projects -->
+                            <section id="projects" class="main">
+                                <div class="spotlight">
+                                    <div class="content">
+                                        <header class="major">
+                                            <h2>Projects</h2>
+                                        </header>
+                                        <p>
+                                            <b>Forum Posts Crawler</b> (JavaScript, Python)
+                                            <ul>
+                                                <li>Utilized BeautifulSoup to parse HTML files of 1point3acres 
+                                                (A forum for graduate school applicants) to JSON and visualized over 30,000 application results, 
+                                                which got about 1,000 visits from 17 countries within one month.</li>
+                                                <li>Developed a data filter based on AngularJS and a query API based on Tornado web framework.</li>
+                                                <li>Created a daemon program to manage and protect the crawler; 
+                                                deployed the daemon on DigitalOcean VPS.</li>
+                                            </ul>
+                                        </p>
+                                        <hr />
+                                        <p>
+                                            <b>The US Congress Database: An Android App</b> (Java, PHP)
+                                            <ul>
+                                                <li>Visualized the US Congress data with a user-friendly interface based on Material Design language.</li>
+                                                <li>Constructed a powerful API to query thousands of legislators and bills data; hosted the API on AWS.</li>
+                                                <li>Designed 7 interfaces for users to search the data and save preferences.</li>
+                                            </ul>
+                                        </p>
+                                        <hr />
+                                        <p>
+                                            <b>Kickoff: A Soccer Statistics Website</b> (JavsScript, PHP)
+                                            <ul>
+                                                <li>Established a large-scale database for thousands of UEFA soccer teams, players and matches.</li>
+                                                <li>Developed a crawler to collect matches data from UEFA websites every day.</li>
+                                                <li>Designed an interface for users to follow their favorite teams and give ratings to players after matches.</li>
+                                                <li>Proposed an algorithm to select most valuable players according to their performances and ratings.</li>
+                                            </ul>
+                                        </p>
+                                        <hr />
+                                        <p>
+                                            <b>PDF Translation Platform</b> (JavaScript, PHP)
+                                            <ul>
+                                                <li>Collaborated with a team member and built an online platform for reading and translating public PDF files.</li>
+                                                <li>Created an intuitive front-end interface for translators to select sections they want to translate.</li>
+                                                <li>Devised an algorithm to bypass special characters and stored multiple versions of translations in database.</li>
+                                            </ul>
+                                        </p>
+                                        <hr />
+                                        <p>
+                                            <b>Large-scale Patents Classifier</b> (Python)
+                                            <ul>
+                                                <li>Developed a supervised learning model for classification using LIBLINEAR and LIBSVM library.</li>
+                                                <li>Led a 3-member group and constructed a multi-thread large-scale patents classifier with thread pool; achieved
+accuracy of 96.81% by applying Min-Max Modular SVM.</li>
+                                            </ul>
+                                        </p>
+                                        <hr />
+                                        <p>
+                                            <b>Netflix Movie Recommendation System</b> (Python)
+                                            <ul>
+                                                <li>Predicted missing ratings of users based on given ratings in Netflix Prize Dataset.</li>
+                                                <li>Reduced the standard deviation of Netflix movie recommendation system to 0.90 (Top 5% in the class) using
+multiple optimization algorithms such as stochastic gradient descent and collaborative filtering.</li>
+                                            </ul>
+                                        </p>
+                                        <!--Projects
+                                        <hr />
+                                        <p>
+                                            <b></b> ()
+                                            <ul>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                            </ul>
+                                        </p>
+                                        -->
+
+                                    </div>
+                                </div>
+                            </section>
+
+
+                        <!-- Publications -->
+                            <section id="publications" class="main">
+                                <div class="spotlight">
+                                    <div class="content">
+                                        <header class="major">
+                                            <h2>Publications</h2>
+                                        </header>
+                                        <p>
+                                            <b>An Efficient Cache Algorithm to Accelerate the I/O Processing of Data Deduplication in Storage Systems</b><br />
+                                            <i>IEEE ICPADS16, 2016</i><br />
+                                            Hongyuan Gao, Chentao Wu, Jie Li, Minyi Guo
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </section>
+
+                        <!-- Interests -->
+                            <section id="interests" class="main">
+                                <div class="spotlight">
+                                    <div class="content">
+                                        <header class="major">
+                                            <h2>Interests</h2>
+                                        </header>
+                                        <p>
+                                            <b>Sports</b><br />
+                                            <ul>
+                                                <li>Watch a very wide variety of sports, including but not limited to 
+                                                soccer, NBA, NFL, tennis, track and field, swimming, diving, snooker, F1, badminton, ping pong, skating, figure skating, darts, weightlifting, gymnastics.</li>
+                                                <li>A crazy fan of Chelsea and José Mourinho.</li>
+                                            </ul>
+                                        </p>
+                                        <hr />
+                                        <p>
+                                            <b>Blogging</b><br />
+                                            <ul>
+                                                <li><a href="http://blog.hgao.net" target="_blank">http://blog.hgao.net</a>.</li>
+                                                
+                                                <li>Powered by <a href="http://gohugo.io">Hugo</a>.</li>
+                                                <li>Unfortunately, I mainly write in Chinese...</li>
+                                            </ul>
+                                        </p>
+                                        <hr />
+                                        <p>
+                                            <b>Reading</b><br />
+                                            <ul>
+                                                <li>Love science fiction and detective stories</li>
+                                                <li>Favorites: Foundation series & Robot series (Isaac Asimov), The Three-Body Problem (Cixin Liu), 1984, Sherlock Holmes detective stories, Journey Under the Midnight Sun, The Tokyo Zodiac Murders, The Devotion of Suspect X.</li>
+                                            </ul>
+                                        </p>
+                                        <hr />
+                                        <p>
+                                            <b>Others..</b><br />
+                                            <ul>
+                                                <li>Japanese Anime: Suzumiya Haruhi series, Code Geass, EVA, Fate / Zero, K-On!, Toradora!, Full Metal Panic!.</li>
+                                                <li>Games: Pro Evolution Soccer, Pokémon, Super Robot Wars, Fire Emblem, Ace Attorney, Samurai Warriors.</li>
+                                                <li>Piano</li>
+                                                <li>Rubik's Cube (Sub 1min)</li>
+                                                <li>Astro observation</li>
+                                                <li>The history of Japanese Sengoku period</li>
+                                            </ul>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </section>
+
                         <!--
-                        <!-- Second Section -->
                             <section id="second" class="main special">
                                 <header class="major">
                                     <h2>Ipsum consequat</h2>
@@ -238,7 +391,6 @@
                                 </footer>
                             </section>
 
-                        <!-- Get Started -->
                             <section id="cta" class="main special">
                                 <header class="major">
                                     <h2>Congue imperdiet</h2>
@@ -252,15 +404,15 @@
                                     </ul>
                                 </footer>
                             </section>
+                        -->
 
                     </div>
-                    -->
 
                 <!-- Footer -->
                     <footer id="footer">
                         <p class="copyright">
                             &copy; 2017 Hongyuan Gao<br />
-                            Hosted on <a href="https://github.com" target="_blank">GitHub</a> | 
+                            Hosted on <a href="https://www.digitalocean.com" target="_blank">DigitalOcean</a> | 
                             Designed by <a href="https://html5up.net" target="_blank">HTML5 UP</a>.<br />
 
                         </p>
